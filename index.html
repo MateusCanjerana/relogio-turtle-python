@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+  </head>
+  <body>
+    <script>
+      function setup() {
+        createCanvas(400, 400);
+      }
+
+      function draw() {
+        background(51);
+
+        let hr = hour();
+        let mn = minute();
+        let sc = second();
+
+        fill(255);
+        noStroke();
+        text(hr + ':' + mn + ':' + sc, 10, 200);
+      }
+    </script>
+  </body>
+</html>
