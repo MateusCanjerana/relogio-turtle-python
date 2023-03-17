@@ -1,5 +1,5 @@
-# python
-Projetos realizados em Python
+# Python
+Projeto de um relogio funcional realizado em Python
 
 ## Imagem do relogio:
 <div align="center">
